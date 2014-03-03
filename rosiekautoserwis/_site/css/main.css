@@ -1,0 +1,121 @@
+body {
+    font-size: 100%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    body {
+        font-size: 130%;
+    }
+}
+
+div.wrapper {
+    width: 960px;
+}
+
+div.wrapper > header {
+    padding-top: 30px;
+    background: url('/images/logo.png') no-repeat right;
+    height: 91px;
+}
+
+nav {
+    width: 200px;
+    float: left;
+    padding: 30px 20px 20px;
+}
+
+nav a {
+    display: block;
+    width: 168px;
+    padding: 10px 15px 10px 0;
+    margin-left: 10px;
+    font-size: 0.7em;
+    font-weight: normal;
+    border: 1px solid white;
+    text-align: right;
+}
+
+nav a:hover {
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+nav a.selected  {
+    padding-right: 15px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+article {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #313131;
+    float: left;
+    padding-left: 40px;
+    font-size: 0.75em;
+    line-height: 170%;
+    width: 670px;
+    border-left: 1px solid gray;
+    min-height: 270px;
+}
+
+section header {
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -99px; /* the bottom margin is the negative value of the footer's height */
+}
+footer, .push {
+    height: 99px; /* '.push' must be the same height as 'footer' */
+    clear: both;
+}
+
+footer div.underline {
+    margin-top: 20px;
+    background-color: #2e2680;
+    height: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.6em;
+    margin: 0;
+}
+
+footer a {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #313131;
+}
+
+article a {
+    color: #4f42dd;
+}
+article a:hover {
+    color: #2e2680;
+}
+
+p {
+    font-size: 1em;
+}
+
+h1 {
+    color: #2e2680;
+}

@@ -1,0 +1,151 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #F2F7FA;
+}
+div#main {
+	font-family: "Century Gothic","Avant Garde Gothic","Avant Garde","URW Gothic L",helvetica,sans-serif;
+	color: white;
+	background: url(back.jpg);
+	background-repeat: repeat;
+	width: 750px;
+	min-height: 500px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #738D9A;
+	text-align: center;
+}
+h2 {
+	font-weight: normal;
+	text-align: left;
+	margin: 0px;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+div.left {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+div.right {
+	float: left;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+div.content {
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 15px;
+	min-height: 330px;
+	overflow: auto;
+}
+div.content p.center {
+	font-size: 16px;
+} 
+div.content p, div.left p, div.right p {
+	font-size: 13px;	
+}
+div.content ul, div.content ol {
+	margin-top: 5px;
+}
+div.content ul li, div.content ol li {
+	font-size: 13px;
+	text-align: left;
+}
+div.left-menu {
+	float: left;
+	width: 25%;
+}
+div.right-content {
+	float: left;
+	width: 70%;
+	margin-left: 4%;
+	margin-right: 1%;
+}
+ul.top {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	padding: 0px;
+	height: 40px;
+	left: 23px;
+	position: relative;
+	font-size: 32px;
+}
+ul.top li {
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+ul.top li.last {
+	margin-right: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	outline: none;
+}
+a.blue {
+	text-decoration: none;
+	color: #BCD0D9;
+}
+a:hover {
+	text-decoration: none;
+	color: #BCD0D9;
+}
+
+div.footer h1 {
+	font-weight: normal;
+	text-align: right;
+	margin: 0px;
+	font-size: 64px;
+}
+div.footer h2 {
+	font-weight: normal;
+	text-align: right;
+	margin: 0px;
+	font-size: 22px;
+}
+
+.blue {
+	color: #BCD0D9;
+}
+.dark {
+	color: #36444C;
+}
+.red {
+	color: #FFCCCC;
+}
+.green {
+	color: #99FFCC;
+}
+p {
+	margin: 0px;
+	font-size: 13px;
+	text-align: justify;
+	text-indent: 20px;
+}
+p.center {
+	margin-top: 30px;
+	text-align: center;
+}
+p.right {
+	text-align: right;	
+}
+p.label {
+	margin-top: 10px;	
+}
+p.question {
+	margin-bottom: 10px;
+	font-style: italic;	
+}
+
+p.signature {
+	margin-top: 15px;	
+	text-align: right;
+}
+div.contact p, form p {
+	text-indent: 0px;	
+}

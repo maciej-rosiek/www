@@ -1,0 +1,4 @@
+name: Rosiek Autoserwis - Stanisław Rosiek
+markdown: redcarpet
+pygments: true
+permalink: /:title.html
