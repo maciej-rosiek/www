@@ -1,0 +1,36 @@
+nav .illustration {
+    background-position: -163px -9px;
+}
+nav .illustration:hover, nav .illustration.selected {
+    background-position: -282px -9px;
+}
+nav .sketches {
+    background-position: -163px -39px;
+}
+nav .sketches:hover, nav .sketches.selected {
+    background-position: -282px -39px;
+}
+nav .motion {
+    background-position: -163px -74px;
+}
+nav .motion:hover, nav .motion.selected {
+    background-position: -282px -74px;
+}
+nav .about {
+    background-position: -163px -106px;
+}
+nav .about:hover, nav .about.selected {
+    background-position: -282px -106px;
+}
+nav .blog {
+    background-position: -163px -138px;
+}
+nav .blog:hover, nav .blog.selected {
+    background-position: -282px -138px;
+}
+nav .characters {
+    background-position: -163px -42px;
+}
+nav .characters:hover, nav .characters.selected {
+    background-position: -282px -42px;
+}
