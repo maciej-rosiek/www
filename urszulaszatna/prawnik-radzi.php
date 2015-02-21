@@ -41,7 +41,8 @@
 		"abolicja-w-zus" => "Abolicja w ZUS",
 		"swiadek-w-sadzie" => "Świadek w sądzie",
 		"sluzebnosc" => "Służebność",
-		"pracodawca-nie-placi" => "Pracodawca nie płaci"
+		"pracodawca-nie-placi" => "Pracodawca nie płaci",
+                "odszkodowanie-za-zlamana-reke" => "Odszkodowanie za złamaną rękę"
 	);
 	$art = $_GET['art'];
 	if ($art == '') $art = key( array_slice( $porady, -1, 1, TRUE ) );
@@ -57,6 +58,12 @@
 </div>
 <div class="right-content">
   <h2><?=mb_convert_case($porady[$art], MB_CASE_UPPER, "UTF-8")?></h2>
+  <?if ($art == "odszkodowanie-za-zlamana-reke"):?>
+	<p class="question">W styczniu poślizgnęłam się na nieodśnieżonych i oblodzonych schodach Urzędu Miasta. Czy mogę uzyskać od Urzędu Miasta odszkodowanie za doznane urazy?</p>
+	<p><b>TAK</b>. Do właściciela terenu, a w tym przypadku do Miasta należy utrzymanie porządku i odśnieżanie. W tej sytuacji należy wysłać do Urzędu Miasta wezwanie do zapłaty zadośćuczynienia za doznaną krzywdę-złamanie ręki oraz odszkodowanie za poniesione koszty leczenia. Miasto z pewnością jest ubezpieczone i zapewne zgłosi szkodę firmie ubezpieczeniowej. Jeśli firma ubezpieczeniowa wyda negatywną decyzję lub zaniży kwotę odszkodowania, to pozostaje wniesienie pozwu do sądu.</p>
+	<p>Podstawa prawna: art. 5 ustawy z dnia 13 września 1996 r. o utrzymaniu czystości i porządku w gminach.</p>
+    <p class="signature">Urszula Szatna – 21.02.2015 r.</p>
+  <?endif?>
   <?if ($art == "pracodawca-nie-placi"):?>
 	<p class="question">Jestem zatrudniona na umowę o pracę na czas nieokreślony. Pracodawca do tej pory nie wypłacił mi wynagrodzenia za miesiąc listopad i grudzień 2012 r., a w październiku 2012 r. otrzymałam wynagrodzenie w ratach po 300 zł. Co mogę zrobić, kiedy pracodawca nie wypłaca należnego pracownikowi wynagrodzenia w terminie?</p>
 	<p>Pracodawca ma obowiązek terminowego wypłacania wynagrodzenia za pracę co najmniej raz w miesiącu, w stałym z góry określonym dniu, nie później niż w ciągu pierwszych 10 dni następnego miesiąca kalendarzowego. Jeśli pracodawca opóźnia się z wypłatą wynagrodzenia to pracownik ma prawo wnieść do wydziału pracy sądu rejonowego właściwego dla siedziby pracodawcy pozew o zapłatę wynagrodzenia za pracę wraz z odsetkami z tytułu opóźnienia. Zanim złoży się pozew przeciwko pracodawcy, należy wysłać do niego wezwanie do zapłaty, które musi spełniać wymogi formalne i materialne. W wezwaniu do zapłaty należy dokładnie określić na jakiej podstawie i jakiej kwoty domaga się pracownik. Podaje się również na jakie konto ma wpłynąć należne świadczenie oraz informację, że jeśli nie spełni pracodawca roszczenia to sprawa zostanie skierowana na drogę sądową.</p>
