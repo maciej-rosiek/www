@@ -42,7 +42,9 @@
 		"swiadek-w-sadzie" => "Świadek w sądzie",
 		"sluzebnosc" => "Służebność",
 		"pracodawca-nie-placi" => "Pracodawca nie płaci",
-                "odszkodowanie-za-zlamana-reke" => "Odszkodowanie za złamaną rękę"
+                "odszkodowanie-za-zlamana-reke" => "Odszkodowanie za złamaną rękę",
+                "pozew-na-urzedowym-formularzu" => "Pozew na urzędowym formularzu",
+                "kredyt-we-frankach" => "Kredyt we frankach"
 	);
 	$art = $_GET['art'];
 	if ($art == '') $art = key( array_slice( $porady, -1, 1, TRUE ) );
@@ -58,6 +60,18 @@
 </div>
 <div class="right-content">
   <h2><?=mb_convert_case($porady[$art], MB_CASE_UPPER, "UTF-8")?></h2>
+  <?if ($art == "kredyt-we-frankach"):?>
+	<p class="question">Raty mojego kredytu we frankach wzrosły o ponad połowę. Bank nie chce ze mną rozmawiać. Czy mogę pozwać do sądu bank?</p>
+	<p><b>TAK</b>. W razie istotnej zmiany siły nabywczej pieniądza po powstaniu zobowiązania, sąd może po rozważeniu interesów stron, zgodnie z zasadami współżycia społecznego, zmienić wysokość lub sposób spełnienia świadczenia pieniężnego, chociażby były ustalone w orzeczeniu lub umowie. Jeśli kurs franka jest wysoki, a płaci Pan o połowę wyższą ratę to sąd może to uznać za istotną zmianę.</p>
+	<p>Podstawa prawna: art. 3581 § 3 Kodeksu cywilnego.</p>
+    <p class="signature">Urszula Szatna – 21.02.2015 r.</p>
+  <?endif?>
+  <?if ($art == "pozew-na-urzedowym-formularzu"):?>
+      <p class="question">Złożyłem do sądu pracy pozew o zapłatę 5 000 zł. Sąd wezwał mnie do złożenia pozwu na urzędowym formularzu. Czy koniecznie należy wypełnić formularz, aby sprawa została rozpoznana?</p>
+      <p><b>TAK</b>. Sprawy  z zakresu prawa pracy, w których wartość przedmiotu sporu nie przekracza 10 000 zł, rozpoznawane są w postępowaniu uproszczonym, jeśli roszczenie wynika z umowy. Postępowanie to jest obligatoryjne, zatem sąd nie może odstąpić od rozpoznania sprawy w tym trybie. W postępowaniu uproszczonym pisma procesowe muszą być wnoszone przez strony na urzędowych formularzach. Formularz musi być wypełniony dokładnie, tak jak wynika to z pouczeń znajdujących się w jego treści.  Jeżeli pozew nie zostanie złożony na urzędowym formularzu to powód zostanie wezwany do jego uzupełnienia lub poprawienia w terminie tygodniowym pod rygorem zwrotu pozwu.</p>
+      <p>Podstawa prawna: art. 505  kodeksu postępowania cywilnego.</p>
+      <p class="signature">Urszula Szatna – 31.03.2015 r.</p>
+  <?endif?>
   <?if ($art == "odszkodowanie-za-zlamana-reke"):?>
 	<p class="question">W styczniu poślizgnęłam się na nieodśnieżonych i oblodzonych schodach Urzędu Miasta. Czy mogę uzyskać od Urzędu Miasta odszkodowanie za doznane urazy?</p>
 	<p><b>TAK</b>. Do właściciela terenu, a w tym przypadku do Miasta należy utrzymanie porządku i odśnieżanie. W tej sytuacji należy wysłać do Urzędu Miasta wezwanie do zapłaty zadośćuczynienia za doznaną krzywdę-złamanie ręki oraz odszkodowanie za poniesione koszty leczenia. Miasto z pewnością jest ubezpieczone i zapewne zgłosi szkodę firmie ubezpieczeniowej. Jeśli firma ubezpieczeniowa wyda negatywną decyzję lub zaniży kwotę odszkodowania, to pozostaje wniesienie pozwu do sądu.</p>
