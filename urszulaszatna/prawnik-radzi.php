@@ -64,7 +64,7 @@
 	<p class="question">Raty mojego kredytu we frankach wzrosły o ponad połowę. Bank nie chce ze mną rozmawiać. Czy mogę pozwać do sądu bank?</p>
 	<p><b>TAK</b>. W razie istotnej zmiany siły nabywczej pieniądza po powstaniu zobowiązania, sąd może po rozważeniu interesów stron, zgodnie z zasadami współżycia społecznego, zmienić wysokość lub sposób spełnienia świadczenia pieniężnego, chociażby były ustalone w orzeczeniu lub umowie. Jeśli kurs franka jest wysoki, a płaci Pan o połowę wyższą ratę to sąd może to uznać za istotną zmianę.</p>
 	<p>Podstawa prawna: art. 3581 § 3 Kodeksu cywilnego.</p>
-    <p class="signature">Urszula Szatna – 21.02.2015 r.</p>
+      <p class="signature">Urszula Szatna – 31.03.2015 r.</p>
   <?endif?>
   <?if ($art == "pozew-na-urzedowym-formularzu"):?>
       <p class="question">Złożyłem do sądu pracy pozew o zapłatę 5 000 zł. Sąd wezwał mnie do złożenia pozwu na urzędowym formularzu. Czy koniecznie należy wypełnić formularz, aby sprawa została rozpoznana?</p>
