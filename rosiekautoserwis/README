@@ -1,1 +1,6 @@
 rosiekautoserwis.pl
+
+--
+To run (http://jekyllrb.com/):
+- gem install jekyll
+- jekyll serve
