@@ -33,22 +33,23 @@
             <article id="article">
                 <section>{{ content }}</section>
             </article>
-            <div class="push"></div>
+            <div class="clear"></div>
         </div>
-        <footer>
-            <p>Rosiek Autoserwis</p>
-            <p>Stanislaw Rosiek ul. Niepodległości 47, 57-400 Nowa Ruda, NIP 885-100-38-76, tel. 74 872 11 14</p>
-            <p>e-mail:
-                <script language="JavaScript" type="text/javascript">
-                    var user = "rosiek";
-                    var domain = "akcja.pl";
-                    document.write('<a href=\"mailto:' + user + '@' + domain + '\">');
-                    document.write(user+'@'+domain);
-                    document.write('</a>');
-                </script>
-            </p>
-            <div class="underline"></div>
-        </footer>
+            <footer>
+                <p>Rosiek Autoserwis</p>
+                <p>ul. Niepodległości 47, 57-400 Nowa Ruda, tel. 74 872 11 14</p>
+                <p>ul. Mickiewicza 2B, 57-410 Ścinawka Średnia, tel. 74 811 00 04</p>
+                <p>
+                    <script language="JavaScript" type="text/javascript">
+                        var user = "rosiek";
+                        var domain = "akcja.pl";
+                        document.write('<a href=\"mailto:' + user + '@' + domain + '\">');
+                        document.write(user+'@'+domain);
+                        document.write('</a>');
+                    </script>
+                </p>
+                <div class="underline"></div>
+            </footer>
 
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -64,11 +65,6 @@
 
         <script src="/js/cookies.js" type="text/javascript"></script>
 
-        <script type="text/javascript">
-            window.onresize = function() {
-                $('article').css('width', $(window).width() - 400);
-            };
-        </script>
 
     </body>
 </html>
