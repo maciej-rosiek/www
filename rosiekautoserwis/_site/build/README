@@ -1,0 +1,9 @@
+rosiekautoserwis.pl
+
+--
+To run (http://jekyllrb.com/):
+- gem install jekyll
+- jekyll serve
+
+To build:
+jekyll build --destination build
