@@ -6,5 +6,4 @@ To run (http://jekyllrb.com/):
 - jekyll serve
 
 To build:
-jekyll build --destination buil
-
+jekyll build --destination build
