@@ -6,7 +6,7 @@ div.container {
     margin: 0 auto;
     max-width: 960px;
     margin-bottom: 50px;
-    min-height: calc(100% - 168px)
+    min-height: calc(100% - 186px)
 }
 
 div.wrapper {
